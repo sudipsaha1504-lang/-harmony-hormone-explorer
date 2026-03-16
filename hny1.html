@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harmony | Hormone Explorer</title>
+
+    <link rel="stylesheet" href="hny1.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>HARMONY</h1>
+        <h2>Explore Human Hormones</h2>
+
+        <button id="modeToggle">🌙 Dark Mode</button>
+
+    </header>
+
+    <nav>
+
+        <button class="filter" data-hormone="all">All</button>
+        <button class="filter" data-hormone="dopamine">Dopamine</button>
+        <button class="filter" data-hormone="serotonin">Serotonin</button>
+        <button class="filter" data-hormone="oxytocin">Oxytocin</button>
+        <button class="filter" data-hormone="cortisol">Cortisol</button>
+        <button class="filter" data-hormone="adrenaline">Adrenaline</button>
+        <button class="filter" data-hormone="testosterone">Testosterone</button>
+        <button class="filter" data-hormone="estrogen">Estrogen</button>
+
+
+    </nav>
+
+    <main>
+
+        <section class="hormone-container">
+
+            <article class="hormone dopamine">
+
+                <h3>Dopamine</h3>
+
+                <img src="https://i.pinimg.com/1200x/07/ae/a4/07aea4493ce6a5cba73b424396c1343a.jpg">
+
+                <p class="short">
+                    Dopamine is the reward hormone that drives motivation and pleasure.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+
+                <p class="details">
+                    Dopamine motivates behavior and creates a feeling of reward when we
+                    complete tasks or achieve goals. It spikes during activities like
+                    gaming, social media, eating, and achieving success.
+                </p>
+
+
+            </article>
+
+
+
+            <article class="hormone serotonin">
+
+                <h3>Serotonin</h3>
+                <img src="https://i.pinimg.com/1200x/4d/60/bc/4d60bc5ddf660197afd5f15de9f2921d.jpg">
+
+
+                <p class="short">
+                    Serotonin regulates mood, sleep, appetite, and emotional stability.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+
+                <p class="details">
+                    Unlike dopamine spikes, serotonin provides a long-term sense of
+                    contentment and wellbeing. It increases with sunlight, exercise,
+                    social bonding, and meaningful life progress.
+                </p>
+
+            </article>
+
+
+
+            <article class="hormone oxytocin">
+
+                <h3>Oxytocin</h3>
+                <img src="https://i.pinimg.com/736x/85/89/9e/85899e3d8470d2ddbb3620c1e0b83c59.jpg">
+                <p class="short">
+                    Known as the "love hormone".
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+
+                <p class="details">
+                    Oxytocin strengthens trust, bonding, and relationships. It increases
+                    during hugs, affection, childbirth, and social bonding.
+                </p>
+
+            </article>
+
+
+
+            <article class="hormone cortisol">
+
+                <h3>Cortisol</h3>
+                <img src="https://i.pinimg.com/736x/69/f4/b1/69f4b110066f33aab186c7d65af693fd.jpg">
+                <p class="short">
+                    Cortisol is the stress hormone.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+
+                <p class="details">
+                    Cortisol helps the body respond to danger or stress, increasing alertness
+                    and energy. However chronic cortisol leads to anxiety, fatigue,
+                    and health problems.
+                </p>
+
+            </article>
+
+
+
+            <article class="hormone adrenaline">
+
+                <h3>Adrenaline</h3>
+                <img src="https://i.pinimg.com/736x/69/77/02/697702d06fe7b09cdc6cc3b221bbacf0.jpg">
+                <p class="short">
+                    Adrenaline triggers the fight-or-flight response.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+
+                <p class="details">
+                    It prepares the body for immediate action by increasing heart rate,
+                    blood pressure, and energy availability.
+                </p>
+
+            </article>
+
+
+            <article class="hormone testosterone">
+
+                <h3>Testosterone</h3>
+                <img src="https://i.pinimg.com/736x/51/3a/08/513a08369a70cdc1db101cd7aa218095.jpg">
+                <p class="short">
+                    Testosterone is the primary male sex hormone.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+                <p class="details">
+                    It plays a key role in muscle development, bone density, and libido.
+                    It prepares the body for immediate action by increasing heart rate,
+                    blood pressure, and energy availability.
+                </p>
+
+            </article>
+
+
+            <article class="hormone estrogen">
+
+                <h3>Estrogen</h3>
+                <img src="https://i.pinimg.com/736x/74/fd/df/74fddfbf77948ae2610703a350fa149e.jpg">
+                <p class="short">
+                    Estrogen is a major female reproductive hormone produced mainly in the ovaries.
+                </p>
+
+                <button class="learnBtn">Learn More</button>
+                <p class="details">
+                    It plays a crucial role in the development of female physical characteristics such
+                    as breast development, body shape, and reproductive organ function. Estrogen also
+                    regulates the menstrual cycle and supports bone health, skin elasticity, and
+                    cardiovascular health. Although it is primarily associated with females, small amounts are
+                    also present in males and contribute to overall hormonal balance.
+                </p>
+
+            </article>
+
+        </section>
+
+
+
+        <aside>
+
+            <h3>Mood Booster</h3>
+
+            <p id="moodText">Click the button for a hormone boosting activity.</p>
+
+            <button id="moodBtn">Boost My Mood</button>
+
+        </aside>
+
+    </main>
+
+
+
+    <section class="comparison">
+
+        <h2>Hormone Comparison</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Hormone</th>
+                    <th>Main Function</th>
+                    <th>Effect</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Dopamine</td>
+                    <td>Reward</td>
+                    <td>Motivation</td>
+                </tr>
+
+                <tr>
+                    <td>Serotonin</td>
+                    <td>Mood balance</td>
+                    <td>Contentment</td>
+                </tr>
+
+                <tr>
+                    <td>Oxytocin</td>
+                    <td>Bonding</td>
+                    <td>Trust</td>
+                </tr>
+
+                <tr>
+                    <td>Cortisol</td>
+                    <td>Stress response</td>
+                    <td>Alertness</td>
+                </tr>
+
+                <tr>
+                    <td>Adrenaline</td>
+                    <td>Fight or flight</td>
+                    <td>Energy burst</td>
+                </tr>
+
+                <tr>
+                    <td>Testosterone</td>
+                    <td>Male sex hormone</td>
+                    <td>Muscle development</td>
+                </tr>
+
+                <tr>
+                    <td>Estrogen</td>
+                    <td>Female sex hormone</td>
+                    <td>Reproductive health</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+
+    <footer>
+
+        <h3>Join Harmony</h3>
+
+        <form id="form">
+
+            <input type="text" placeholder="Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <input type="password" placeholder="Password" required>
+
+            <select>
+
+                <option>Select Interest</option>
+                <option>Dopamine</option>
+                <option>Serotonin</option>
+                <option>Oxytocin</option>
+
+            </select>
+
+            <textarea placeholder="Comments"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </footer>
+
+    <script src="hny1.js"></script>
+
+</body>
+
+</html>
